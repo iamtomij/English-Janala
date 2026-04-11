@@ -92,7 +92,7 @@ const displayWordDetails = (word) => {
       </div>
       <div class="space-x-4 space-y-3">
          <h2 class="font-semibold text-[24px]">Synonyms</h2>
-         <div class"">${createElement(word.synonyms)}</div>
+         <div class="space-x-3">${createElement(word.synonyms)}</div>
       </div>
    `
    document.getElementById("word_modal").showModal()
