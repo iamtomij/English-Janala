@@ -127,7 +127,7 @@ const displayLevelWord = (words) => {
       console.log(words)
       const card = document.createElement("div");
       card.innerHTML = `
-               <div class="bg-white rounded-xl shadow-sm text-center py-10 px-5 space-y-4">
+               <div class="bg-white h-[310px] rounded-xl shadow-sm text-center py-10 px-5 space-y-4">
             <h2 class="text-[32px] font-bold">${words.word ? words.word : "শব্দ পাওয়া যায়নি"}</h2>
             <p class="font-medium text-[20px] ">Meaning /Pronounciation</p>
             <div class="text-[32px] font-semibold text-[#18181B] font-bangla">"${words.meaning ? words.meaning : "অর্থ পাওয়া যায়নি"} / ${words.pronunciation ? words.pronunciation : "pronunciation পাওয়া যায়নি"}"</div>
